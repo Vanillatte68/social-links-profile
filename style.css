@@ -82,6 +82,7 @@ ul li button {
   width: 100%;
 }
 
+ul li button:focus,
 ul li button:hover {
   background-color: var(--primary-color);
   color: var(--off-black);
@@ -99,4 +100,12 @@ footer {
 
 footer a {
   color: white;
+}
+
+@media screen and (max-width: 450px) {
+  main {
+    width: auto;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
 }
